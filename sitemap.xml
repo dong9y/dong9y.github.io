@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://www.dx98.top/life/games/index.html</loc>
+    <loc>https://www.dx98.top/life/music/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://www.dx98.top/box/gallery/index.html</loc>
+    <loc>https://www.dx98.top/personal/about/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://www.dx98.top/life/music/index.html</loc>
+    <loc>https://www.dx98.top/box/gallery/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://www.dx98.top/social/link/index.html</loc>
+    <loc>https://www.dx98.top/personal/bb/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://www.dx98.top/social/fcircle/index.html</loc>
+    <loc>https://www.dx98.top/life/games/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://www.dx98.top/personal/bb/index.html</loc>
+    <loc>https://www.dx98.top/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://www.dx98.top/personal/about/index.html</loc>
+    <loc>https://www.dx98.top/social/link/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -182,13 +182,6 @@
 
   
   <url>
-    <loc>https://www.dx98.top/tags/Java/</loc>
-    <lastmod>2024-02-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.dx98.top/tags/Markdown/</loc>
     <lastmod>2024-02-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -202,17 +195,24 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://www.dx98.top/tags/Java/</loc>
+    <lastmod>2024-02-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
-    <loc>https://www.dx98.top/categories/Java%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://www.dx98.top/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2024-02-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.dx98.top/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>https://www.dx98.top/categories/Java%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2024-02-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
