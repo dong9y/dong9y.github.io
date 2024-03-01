@@ -6,7 +6,7 @@
   <link href="https://www.dx98.top/atom.xml" rel="self"/>
   
   <link href="https://www.dx98.top/"/>
-  <updated>2024-02-26T14:00:00.000Z</updated>
+  <updated>2024-03-01T05:00:00.000Z</updated>
   <id>https://www.dx98.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java基础学习（一）</title>
+    <link href="https://www.dx98.top/posts/2013454.html"/>
+    <id>https://www.dx98.top/posts/2013454.html</id>
+    <published>2024-02-29T10:19:03.000Z</published>
+    <updated>2024-03-01T05:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1>Java基础学习（一）</h1><h2 id="卸载JDK">卸载JDK</h2><ul><li>跨平台的开发语言</li><li>JVM虚拟机</li></ul><blockquote><p>打开控制面板，<code>win</code> + <code>R</code>，输入<code>control</code>打开控制面板 - 卸载程序 Java SE打头的文件</p><p>右键计算机 - 环境变量 - 在系统变量中找到<code>JAVA_HOME</code>并删除</p><p>在Path中，找到<code>%JAVA_HOME%\bin</code>，并删除</p></blockquote><h2 id="安装JDK（JAVA开发环境）">安装JDK（JAVA开发环境）</h2><ul><li><p>在平台资料下载JDK安装包<code>jdk-8u321-windows-x64.zip</code></p></li><li><p>双击运行jdk-8u321-windows-x64.exe</p></li><li><p>下一步直到安装成功</p></li><li><p>配置环境变量</p><ul><li>右键计算机 - 高级系统设置 - 环境变量</li><li>在系统变量中点击新建，变量名和变量值如下</li></ul><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">-- 变量名</span><br><span class="line">JAVA_HOME</span><br><span class="line">-- 变量值</span><br><span class="line">C:\Program Files\Java\jdk1.8.0_321// jdk安装路径</span><br></pre></td></tr></table></figure><ul><li>在系统变量<code>Path</code>中添加<code>%JAVA_HOME%\bin</code>,注意使用；分割</li></ul></li></ul><h2 id="验证环境变量是否配置成功">验证环境变量是否配置成功</h2><p><code>win</code> + <code>R</code>，输入<code>cmd</code>打开命令提示符窗口，输入以下内容，出现版本信息则表示安装成功，否则检查上述步骤</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -version // 查看java版本</span><br></pre></td></tr></table></figure><h2 id="Java-C">Java&amp;C</h2><ul><li>标识符</li><li>运算符 + - * / % || &amp;&amp;</li><li>数据类型 int char long …</li><li>流程控制语句<ul><li>for、while、do…while</li><li>if else</li><li>break、continue</li><li>switch … case</li></ul></li><li>数组（一维数组、二维数组）</li></ul><p><code>java和C最大的区别</code>：Java是面向对象的编程语言、C是面向过程的编程语言</p><h2 id="第一行代码Hello-World">第一行代码Hello World</h2><p>在磁盘目录下新建一个<code>HelloWorld.java</code>文件，在文件中编写如下代码：</p><figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">HelloWorld</span> &#123;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="built_in">void</span> <span class="title function_">main</span>(<span class="params"><span class="built_in">String</span>[] args</span>) &#123;        <span class="title class_">System</span>.<span class="property">out</span>.<span class="title function_">println</span>(<span class="string">&quot;Hello World！！！&quot;</span>);    &#125;&#125;</span><br></pre></td></tr></table></figure><p>打开命令提示符，切换到<code>HelloWorld.java</code>所在的文件目录，① 在文件目录的空白处按<code>shift</code> + 鼠标右键，在此处打开命令窗口 ② <code>win + R</code>，输入<code>cmd</code>打开命令提示符，切换磁盘，通过<code>cd</code>命令切换到指定目录</p><p>通过如下命令对.java文件进行编译，生成字节码<code>.class</code>文件</p><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">javac </span>HelloWorld.<span class="keyword">java</span></span><br></pre></td></tr></table></figure><p>执行字节码文件</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">java HelloWorld</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">🥧Java基础</summary>
+    
+    
+    
+    <category term="Java基础" scheme="https://www.dx98.top/categories/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="Java" scheme="https://www.dx98.top/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>Mysql数据库基础（一）</title>
@@ -36,27 +57,6 @@
     <category term="Markdown" scheme="https://www.dx98.top/tags/Markdown/"/>
     
     <category term="外挂标签" scheme="https://www.dx98.top/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java基础学习（一）</title>
-    <link href="https://www.dx98.top/posts/2013454.html"/>
-    <id>https://www.dx98.top/posts/2013454.html</id>
-    <published>2023-08-09T10:19:03.000Z</published>
-    <updated>2023-10-23T14:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1>Java基础学习（一）</h1><h2 id="卸载JDK">卸载JDK</h2><ul><li>跨平台的开发语言</li><li>JVM虚拟机</li></ul><blockquote><p>打开控制面板，<code>win</code> + <code>R</code>，输入<code>control</code>打开控制面板 - 卸载程序 Java SE打头的文件</p><p>右键计算机 - 环境变量 - 在系统变量中找到<code>JAVA_HOME</code>并删除</p><p>在Path中，找到<code>%JAVA_HOME%\bin</code>，并删除</p></blockquote><h2 id="安装JDK（JAVA开发环境）">安装JDK（JAVA开发环境）</h2><ul><li><p>在平台资料下载JDK安装包<code>jdk-8u321-windows-x64.zip</code></p></li><li><p>双击运行jdk-8u321-windows-x64.exe</p></li><li><p>下一步直到安装成功</p></li><li><p>配置环境变量</p><ul><li>右键计算机 - 高级系统设置 - 环境变量</li><li>在系统变量中点击新建，变量名和变量值如下</li></ul><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">-- 变量名</span><br><span class="line">JAVA_HOME</span><br><span class="line">-- 变量值</span><br><span class="line">C:\Program Files\Java\jdk1.8.0_321// jdk安装路径</span><br></pre></td></tr></table></figure><ul><li>在系统变量<code>Path</code>中添加<code>%JAVA_HOME%\bin</code>,注意使用；分割</li></ul></li></ul><h2 id="验证环境变量是否配置成功">验证环境变量是否配置成功</h2><p><code>win</code> + <code>R</code>，输入<code>cmd</code>打开命令提示符窗口，输入以下内容，出现版本信息则表示安装成功，否则检查上述步骤</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -version // 查看java版本</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">🥧Java基础</summary>
-    
-    
-    
-    <category term="Java基础" scheme="https://www.dx98.top/categories/Java%E5%9F%BA%E7%A1%80/"/>
-    
-    
-    <category term="Java" scheme="https://www.dx98.top/tags/Java/"/>
     
   </entry>
   
