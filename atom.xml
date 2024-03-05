@@ -38,29 +38,6 @@
   </entry>
   
   <entry>
-    <title>Mysql数据库基础（二）</title>
-    <link href="https://www.dx98.top/posts/afc9c419.html"/>
-    <id>https://www.dx98.top/posts/afc9c419.html</id>
-    <published>2024-02-26T10:19:03.000Z</published>
-    <updated>2024-03-04T02:30:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1>Mysql数据库基础（二）</h1><h2 id="DDL建表语句">DDL建表语句</h2><h3 id="表创建语法">表创建语法</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">create <span class="selector-tag">table</span> tb_user (</span><br><span class="line">字段<span class="number">1</span> 字段<span class="number">1</span>类型<span class="selector-attr">[comment 字段1注释]</span>,</span><br><span class="line">    字段<span class="number">2</span> 字段<span class="number">2</span>类型<span class="selector-attr">[comment 字段2注释]</span>,</span><br><span class="line">    ...</span><br><span class="line">    字段n 字段n类型<span class="selector-attr">[comment 字段n注释]</span></span><br><span class="line">) <span class="selector-attr">[comment 表注释]</span>;</span><br></pre></td></tr></table></figure><blockquote><p>完成下表的创建</p></blockquote><table><thead><tr><th>id</th><th>name</th><th>gender</th><th>age</th></tr></thead><tbody><tr><td>1</td><td>吴双</td><td>女</td><td>18</td></tr><tr><td>2</td><td>孙文煊</td><td>女</td><td>19</td></tr><tr><td>3</td><td>孙瑞</td><td>男</td><td>20</td></tr></tbody></table><div class="hide-block"><button type="button" class="hide-button" style="background-color:  blue;">点我预览    </button><div class="hide-content"><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> tb_user (</span><br><span class="line">id <span class="type">int</span> <span class="keyword">comment</span> <span class="string">&#x27;学号&#x27;</span>,</span><br><span class="line">    <span class="type">name</span> <span class="type">varchar</span>(<span class="number">10</span>) <span class="keyword">comment</span> <span class="string">&#x27;姓名&#x27;</span>,</span><br><span class="line">    gender <span class="type">varchar</span>(<span class="number">10</span>) <span class="keyword">comment</span> <span class="string">&#x27;性别&#x27;</span>,</span><br><span class="line">    age <span class="type">int</span> <span class="keyword">comment</span> <span class="string">&#x27;年龄&#x27;</span></span><br><span class="line">) <span class="keyword">comment</span> <span class="string">&#x27;用户表&#x27;</span>;</span><br></pre></td></tr></table></figure></div></div><h3 id="数值类型">数值类型</h3><p><img src="szlx.png" alt="数值类型图"></p><hr><h3 id="字符串类型">字符串类型</h3><p><img src="zfclx.png" alt="字符串类型图"></p><hr><h3 id="日期类型">日期类型</h3><p><img src="rqlx.png" alt="日期类型图"></p><blockquote><p>对上表建表语句进行优化</p></blockquote><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> tb_user (</span><br><span class="line">id <span class="type">int</span> <span class="keyword">comment</span> <span class="string">&#x27;学号&#x27;</span>,</span><br><span class="line">    <span class="type">name</span> <span class="type">varchar</span>(<span class="number">10</span>) <span class="keyword">comment</span> <span class="string">&#x27;姓名&#x27;</span>,</span><br><span class="line">    gender <span class="type">char</span>(<span class="number">10</span>) <span class="keyword">comment</span> <span class="string">&#x27;性别 男 女&#x27;</span>,</span><br><span class="line">    age tinyint unsigned <span class="keyword">comment</span> <span class="string">&#x27;年龄&#x27;</span>,</span><br><span class="line">    score <span class="type">double</span>(<span class="number">4</span>,<span class="number">1</span>) <span class="keyword">comment</span> <span class="string">&#x27;成绩&#x27;</span></span><br><span class="line">) <span class="keyword">comment</span> <span class="string">&#x27;用户表&#x27;</span>;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">建表语句和Mysql数据类型</summary>
-    
-    
-    
-    <category term="数据库" scheme="https://www.dx98.top/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    
-    <category term="Markdown" scheme="https://www.dx98.top/tags/Markdown/"/>
-    
-    <category term="Mysql" scheme="https://www.dx98.top/tags/Mysql/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Mysql数据库基础（一）</title>
     <link href="https://www.dx98.top/posts/9fdf28c1.html"/>
     <id>https://www.dx98.top/posts/9fdf28c1.html</id>
@@ -80,6 +57,29 @@
     <category term="Markdown" scheme="https://www.dx98.top/tags/Markdown/"/>
     
     <category term="外挂标签" scheme="https://www.dx98.top/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mysql数据库基础（二）</title>
+    <link href="https://www.dx98.top/posts/afc9c419.html"/>
+    <id>https://www.dx98.top/posts/afc9c419.html</id>
+    <published>2024-02-26T10:19:03.000Z</published>
+    <updated>2024-03-04T02:30:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1>Mysql数据库基础（二）</h1><h2 id="DDL建表语句">DDL建表语句</h2><h3 id="表创建语法">表创建语法</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">create <span class="selector-tag">table</span> tb_user (</span><br><span class="line">字段<span class="number">1</span> 字段<span class="number">1</span>类型<span class="selector-attr">[comment 字段1注释]</span>,</span><br><span class="line">    字段<span class="number">2</span> 字段<span class="number">2</span>类型<span class="selector-attr">[comment 字段2注释]</span>,</span><br><span class="line">    ...</span><br><span class="line">    字段n 字段n类型<span class="selector-attr">[comment 字段n注释]</span></span><br><span class="line">) <span class="selector-attr">[comment 表注释]</span>;</span><br></pre></td></tr></table></figure><blockquote><p>完成下表的创建</p></blockquote><table><thead><tr><th>id</th><th>name</th><th>gender</th><th>age</th></tr></thead><tbody><tr><td>1</td><td>吴双</td><td>女</td><td>18</td></tr><tr><td>2</td><td>孙文煊</td><td>女</td><td>19</td></tr><tr><td>3</td><td>孙瑞</td><td>男</td><td>20</td></tr></tbody></table><div class="hide-block"><button type="button" class="hide-button" style="background-color:  blue;">点我预览    </button><div class="hide-content"><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> tb_user (</span><br><span class="line">id <span class="type">int</span> <span class="keyword">comment</span> <span class="string">&#x27;学号&#x27;</span>,</span><br><span class="line">    <span class="type">name</span> <span class="type">varchar</span>(<span class="number">10</span>) <span class="keyword">comment</span> <span class="string">&#x27;姓名&#x27;</span>,</span><br><span class="line">    gender <span class="type">varchar</span>(<span class="number">10</span>) <span class="keyword">comment</span> <span class="string">&#x27;性别&#x27;</span>,</span><br><span class="line">    age <span class="type">int</span> <span class="keyword">comment</span> <span class="string">&#x27;年龄&#x27;</span></span><br><span class="line">) <span class="keyword">comment</span> <span class="string">&#x27;用户表&#x27;</span>;</span><br></pre></td></tr></table></figure></div></div><h3 id="数值类型">数值类型</h3><p><img src="szlx.png" alt="数值类型图"></p><hr><h3 id="字符串类型">字符串类型</h3><p><img src="zfclx.png" alt="字符串类型图"></p><hr><h3 id="日期类型">日期类型</h3><p><img src="rqlx.png" alt="日期类型图"></p><blockquote><p>对上表建表语句进行优化</p></blockquote><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> tb_user (</span><br><span class="line">id <span class="type">int</span> <span class="keyword">comment</span> <span class="string">&#x27;学号&#x27;</span>,</span><br><span class="line">    <span class="type">name</span> <span class="type">varchar</span>(<span class="number">10</span>) <span class="keyword">comment</span> <span class="string">&#x27;姓名&#x27;</span>,</span><br><span class="line">    gender <span class="type">char</span>(<span class="number">10</span>) <span class="keyword">comment</span> <span class="string">&#x27;性别 男 女&#x27;</span>,</span><br><span class="line">    age tinyint unsigned <span class="keyword">comment</span> <span class="string">&#x27;年龄&#x27;</span>,</span><br><span class="line">    score <span class="type">double</span>(<span class="number">4</span>,<span class="number">1</span>) <span class="keyword">comment</span> <span class="string">&#x27;成绩&#x27;</span></span><br><span class="line">) <span class="keyword">comment</span> <span class="string">&#x27;用户表&#x27;</span>;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">建表语句和Mysql数据类型</summary>
+    
+    
+    
+    <category term="数据库" scheme="https://www.dx98.top/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+    <category term="Markdown" scheme="https://www.dx98.top/tags/Markdown/"/>
+    
+    <category term="Mysql" scheme="https://www.dx98.top/tags/Mysql/"/>
     
   </entry>
   
