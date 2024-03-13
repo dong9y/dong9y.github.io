@@ -6,7 +6,7 @@
   <link href="https://www.dx98.top/atom.xml" rel="self"/>
   
   <link href="https://www.dx98.top/"/>
-  <updated>2024-03-12T12:36:33.402Z</updated>
+  <updated>2024-03-14T02:30:00.000Z</updated>
   <id>https://www.dx98.top/</id>
   
   <author>
@@ -17,33 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>论文注意事项</title>
     <link href="https://www.dx98.top/posts/0.html"/>
     <id>https://www.dx98.top/posts/0.html</id>
-    <published>2024-03-12T11:48:56.942Z</published>
-    <updated>2024-03-12T12:36:33.402Z</updated>
+    <published>2024-03-13T10:19:03.000Z</published>
+    <updated>2024-03-14T02:30:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h1>论文注意事项</h1><h2 id="论文大纲参考">论文大纲参考</h2><ul><li>摘要及关键词</li><li>引言<ul><li>研究背景和意义</li><li>研究现状</li><li>研究内容</li><li>…</li></ul></li><li>开发环境及相关技术介绍<ul><li>平台开发环境</li><li>相关技术栈</li></ul></li><li>需求分析</li><li>总体设计<ul><li>平台架构设计</li><li>平台功能结构设计</li><li>平台功能用例</li><li>数据库设计</li></ul></li><li>详细设计与实现<ul><li>xx功能模块详细设计与实现</li><li>xx功能模块详细设计与实现</li><li>…</li></ul></li><li>系统测试<ul><li>系统测试意义</li><li>测试用例</li><li>测试结果</li></ul></li><li>总结</li><li>参考文献</li><li>谢 辞</li></ul><h2 id="格式">格式</h2><p>==初始设置：==</p><blockquote><p>必须使用<code>Office</code></p></blockquote><blockquote><p>页面边距：布局 - 页边距 - 自定义页边距，上下左右均为2cm，装订线0.5cm</p></blockquote><p><img src="/assets/lw_ybj.png" alt="1681201006017"></p><blockquote><p>页眉：使用模板；页脚，从正文开始是第一页</p><p>页眉顶端距离：<code>1.5cm</code>；页脚底端距离<code>1.75cm</code></p><p><img src="/assets/lw_ymyj.png" alt="1681204674972"></p></blockquote><p>==论文开头==</p><blockquote><p><code>标题：</code>小二黑体加粗、居中、1.5倍行距</p></blockquote><blockquote><p><code>姓名：</code> 仿宋_GB2312 四号 居中</p></blockquote><blockquote><p>（德州学院数学与大数据学院，山东德州 253023）楷体五号1.5倍行距</p></blockquote><blockquote><p><code>摘要：</code>黑体五号、首行缩进两个字符</p></blockquote><blockquote><p><code>关键词：</code>：黑体五号、首行缩进两个字符；至少三个关键词，用分号分隔；关键词与论文相关</p></blockquote><blockquote><p><code>摘要关键词内容：</code>宋体五号，单倍行距</p></blockquote><p>==论文正文==</p><p><code>一级标题：</code>黑体小三顶格，序号后空一格接标题</p><p><code>二级标题：</code>黑体四号顶格，序号后空一格接标题</p><p><code>三级标题：</code>黑体小四顶格，序号后空一格接标题</p><p><strong>不允许使用四级标题，第三级以后不再设标题，采用(1)(2)…格式 ，首行缩进两个字符书写序数，后空一格书写内容</strong></p><p><code>序号使用英文括号加空格的形式</code></p><p><strong>正文使用宋体小四、1.5倍行距、首行缩进两个字符</strong></p><p>标题下必须有内容，不允许两个标题之间挨着</p><p>各章节之间不用另起一页</p><blockquote><p>全文不允许使用中文句号，使用<code>英文全角</code>句号，上交之前必须全文查找，操作如下</p></blockquote><p>ctrl + F：搜索。和 .</p><p>全文中所有数字和字母都是新罗马字体</p><p>==图==</p><p>​<code>图标：</code>宋体五号、在图正下方、居中、1.5倍行距、文中所有图标从1到n自然数升序排序，序号使用新罗马字体</p><p>​<code>图：</code>居中，加边框，美观、==图和图标必须在同一页==</p><p>==表==</p><p>​<code>表注：</code>宋体五号、1.5倍行距、居中、表格正上方；文中所有表从1到n自然数升序排序；表格里内容单倍行距；可以不使用三线表，序号使用新罗马字体</p><p>​<code>内容：</code>宋体五号、数字和字母新罗马字体、==表和表注必须在同一页==</p><p>==参考文献：==</p><p>​<code>参考文献标题：</code>黑体四号、1.5倍行距、顶格、单独一页</p><p>​<code>参考文献内容：</code>五号楷体GB2312、1.5倍行距，参考文献的顺序和在论文中引用的顺序一致，参考文献的个数至少为10个，其中至少有一篇英文参考文献，尽量少引用教材，尽可能引用近几年的文献，近三年至少三篇。</p><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">注</span><br><span class="line">期刊文章：［序号］作者．文章名[J].期刊名(外文期刊可缩写)，出版年，卷号(期号)：起止页码．</span><br><span class="line">专著：［序号］作者．专著名[M]．版本(初版不写)．出版地：出版社，出版年．</span><br><span class="line">译著：［序号］作者．译著名[M]．译者．出版地：出版社，出版年．</span><br><span class="line">论文集：［序号］作者．论文集名[C]．出版地：出版社，出版年．起止页码．</span><br><span class="line">国际、国家标准：［序号］标准编号，标准名称[S]．</span><br><span class="line">网上文章：［序号］作者．文章名[EB/OL]．文章出处或可获得网址，发表或更新日期．</span><br></pre></td></tr></table></figure><p>==中英文翻译：==</p><p>​<strong>标题：新罗马字体、小二、加粗、居中、1.5倍行距、首字母和实词第一个字母大写</strong>*</p><p>​<strong>姓名：Times New Roman；小四；居中； 1.5倍行距；姓第一个字母大写；名第一个字母大写；姓名之间加入一空格；</strong></p><p>​<strong>学校信息：Times New Roman；五号；居中；段前段后1.5倍行距；</strong></p><p>​<strong>Abstract和Key Words: Times New Roman；五号；加粗；段后单倍行距；</strong></p><p>​<strong>正文：Times New Roman；五号；单倍行距；严格按照英文书写规范和标点</strong></p><p>​<strong>关键词：Times New Roman；五号；单倍行距；关键词之间用“，”号分隔；</strong></p><p>==其他：==</p><p>​文中不允许出现大量空白</p><p>​注意页面排版</p><h2 id="提交之前必须进行如下检查">提交之前必须进行如下检查</h2><ul><li>文中没有中文或者英文句号，必须使用英文全角句号</li><li>文中所有序号使用英文括号+空格</li><li>所有段落必须首行缩进两个字符</li><li>图和表的序号从1-n</li><li>页边距和页眉页脚格式</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1>论文注意事项</h1><h2 id="论文大纲参考">论文大纲参考</h2><ul><li>摘要及关键词</li><li>引言<ul><li>研究背景和意义</li><li>研究现状</li><li>研究内容</li><li>…</li></ul></li><li>开发环境及相关技术介绍<ul><li>平台开发环境</li><li>相关技术栈</li></ul></li><li>需求分析</li><li>总体设计<ul><li>平台架构设计</li><li>平台功能结构设计</li><li>平台功能用例</li><li>数据库设计</li></ul></li><li>详细设计与实现<ul><li>xx功能模块详细设计与实现</li><li>xx功能模块详细设计与实现</li><li>…</li></ul></li><li>系统测试<ul><li>系统测试意义</li><li>测试用例</li><li>测试结果</li></ul></li><li>总结</li><li>参考文献</li><li>谢 辞</li></ul><h2 id="格式">格式</h2><p>==初始设置：==</p><blockquote><p>必须使用<code>Office</code></p></blockquote><blockquote><p>页面边距：布局 - 页边距 - 自定义页边距，上下左右均为2cm，装订线0.5cm</p></blockquote><p><img src="/assets/lw_ybj.png" alt="1681201006017"></p><blockquote><p>页眉：使用模板；页脚，从正文开始是第一页</p><p>页眉顶端距离：<code>1.5cm</code>；页脚底端距离<code>1.75cm</code></p><p><img src="/assets/lw_ymyj.png" alt="1681204674972"></p></blockquote><p>==论文开头==</p><blockquote><p><code>标题：</code>小二黑体加粗、居中、1.5倍行距</p></blockquote><blockquote><p><code>姓名：</code> 仿宋_GB2312 四号 居中</p></blockquote><blockquote><p>（德州学院数学与大数据学院，山东德州 253023）楷体五号1.5倍行距</p></blockquote><blockquote><p><code>摘要：</code>黑体五号、首行缩进两个字符</p></blockquote><blockquote><p><code>关键词：</code>：黑体五号、首行缩进两个字符；至少三个关键词，用分号分隔；关键词与论文相关</p></blockquote><blockquote><p><code>摘要关键词内容：</code>宋体五号，单倍行距</p></blockquote><p>==论文正文==</p><p><code>一级标题：</code>黑体小三顶格，序号后空一格接标题</p><p><code>二级标题：</code>黑体四号顶格，序号后空一格接标题</p><p><code>三级标题：</code>黑体小四顶格，序号后空一格接标题</p><p><strong>不允许使用四级标题，第三级以后不再设标题，采用(1)(2)…格式 ，首行缩进两个字符书写序数，后空一格书写内容</strong></p><p><code>序号使用英文括号加空格的形式</code></p><p><strong>正文使用宋体小四、1.5倍行距、首行缩进两个字符</strong></p><p>标题下必须有内容，不允许两个标题之间挨着</p><p>各章节之间不用另起一页</p><blockquote><p>全文不允许使用中文句号，使用<code>英文全角</code>句号，上交之前必须全文查找，操作如下</p></blockquote><p>ctrl + F：搜索。和 .</p><p>全文中所有数字和字母都是新罗马字体</p><p>==图==</p><p>​<code>图标：</code>宋体五号、在图正下方、居中、1.5倍行距、文中所有图标从1到n自然数升序排序，序号使用新罗马字体</p><p>​<code>图：</code>居中，加边框，美观、==图和图标必须在同一页==</p><p>==表==</p><p>​<code>表注：</code>宋体五号、1.5倍行距、居中、表格正上方；文中所有表从1到n自然数升序排序；表格里内容单倍行距；可以不使用三线表，序号使用新罗马字体</p><p>​<code>内容：</code>宋体五号、数字和字母新罗马字体、==表和表注必须在同一页==</p><p>==参考文献：==</p><p>​<code>参考文献标题：</code>黑体四号、1.5倍行距、顶格、单独一页</p><p>​<code>参考文献内容：</code>五号楷体GB2312、1.5倍行距，参考文献的顺序和在论文中引用的顺序一致，参考文献的个数至少为10个，其中至少有一篇英文参考文献，尽量少引用教材，尽可能引用近几年的文献，近三年至少三篇。</p><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">注</span><br><span class="line">期刊文章：［序号］作者．文章名[J].期刊名(外文期刊可缩写)，出版年，卷号(期号)：起止页码．</span><br><span class="line">专著：［序号］作者．专著名[M]．版本(初版不写)．出版地：出版社，出版年．</span><br><span class="line">译著：［序号］作者．译著名[M]．译者．出版地：出版社，出版年．</span><br><span class="line">论文集：［序号］作者．论文集名[C]．出版地：出版社，出版年．起止页码．</span><br><span class="line">国际、国家标准：［序号］标准编号，标准名称[S]．</span><br><span class="line">网上文章：［序号］作者．文章名[EB/OL]．文章出处或可获得网址，发表或更新日期．</span><br></pre></td></tr></table></figure><p>==中英文翻译：==</p><p>​<strong>标题：新罗马字体、小二、加粗、居中、1.5倍行距、首字母和实词第一个字母大写</strong>*</p><p>​<strong>姓名：Times New Roman；小四；居中； 1.5倍行距；姓第一个字母大写；名第一个字母大写；姓名之间加入一空格；</strong></p><p>​<strong>学校信息：Times New Roman；五号；居中；段前段后1.5倍行距；</strong></p><p>​<strong>Abstract和Key Words: Times New Roman；五号；加粗；段后单倍行距；</strong></p><p>​<strong>正文：Times New Roman；五号；单倍行距；严格按照英文书写规范和标点</strong></p><p>​<strong>关键词：Times New Roman；五号；单倍行距；关键词之间用“，”号分隔；</strong></p><p>==其他：==</p><p>​文中不允许出现大量空白</p><p>​注意页面排版</p><h2 id="提交之前必须进行如下检查">提交之前必须进行如下检查</h2><ul><li>文中没有中文或者英文句号，必须使用英文全角句号</li><li>文中所有序号使用英文括号+空格</li><li>所有段落必须首行缩进两个字符</li><li>图和表的序号从1-n</li><li>页边距和页眉页脚格式</li></ul><h2 id="需要提交文件">需要提交文件</h2><p>系统架构图</p><p>功能结构图</p><p>用例图</p><p>ER图</p><p>数据字典</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h1&gt;论文注意事项&lt;/h1&gt;
-&lt;h2 id=&quot;论文大纲参考&quot;&gt;论文大纲参考&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;摘要及关键词&lt;/li&gt;
-&lt;li&gt;引言
-&lt;ul&gt;
-&lt;li&gt;研究背景和意义&lt;/li&gt;
-&lt;li&gt;研究现状&lt;/li&gt;
-&lt;li&gt;研究内容&lt;/li&gt;
-&lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
-&lt;</summary>
-      
+    <summary type="html">2024届毕业生论文注意事项汇总</summary>
     
     
     
+    <category term="毕业设计" scheme="https://www.dx98.top/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="Markdown" scheme="https://www.dx98.top/tags/Markdown/"/>
+    
+    <category term="论文" scheme="https://www.dx98.top/tags/%E8%AE%BA%E6%96%87/"/>
     
   </entry>
   
