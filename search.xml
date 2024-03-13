@@ -31,6 +31,33 @@
     
     
     <entry>
+      <title>论文组成要求</title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<h1>论文中的图表</h1><h2 id="论文图片">论文图片</h2><h3 id="系统架构图">系统架构图</h3><h3 id="功能结构图">功能结构图</h3><h3 id="用例图">用例图</h3><h3 id="E-R图">E-R图</h3><h2 id="论文中的表">论文中的表</h2><table><thead><tr><th>序号</th><th>字段名</th><th>字段中文名</th><th>数据类型</th><th>数据长度</th><th>是否为空</th><th>是否主键</th><th>备注</th></tr></thead><tbody><tr><td>1</td><td>user_id</td><td>用户id</td><td>bigint</td><td>20</td><td>N</td><td>pk</td><td></td></tr><tr><td>2</td><td>username</td><td>用户名</td><td>varchar</td><td>32</td><td>N</td><td></td><td></td></tr><tr><td>3</td><td>gender</td><td>性别</td><td>char</td><td>1</td><td>N</td><td></td><td>1 ：男 0：女</td></tr></tbody></table><h2 id="论文中不能出现的内容">论文中不能出现的内容</h2><p>登录、注册、登录流程图、注册流程图</p><p>合理性、有效性等通用词汇</p><blockquote><p>如果你写的这句话或者这一个段落拿到其他人的论文中也能使用，就直接删除</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 毕业设计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> 论文 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java基础学习（一）</title>
       <link href="/posts/2013454.html"/>
       <url>/posts/2013454.html</url>
