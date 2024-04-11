@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Mysql数据库基础（三）</title>
+      <link href="/posts/e2d7674b.html"/>
+      <url>/posts/e2d7674b.html</url>
+      
+        <content type="html"><![CDATA[<h1>Mysql数据库基础（三）</h1><h2 id="表之间关系">表之间关系</h2><ul><li>多表关系</li><li>多表查询概述</li><li>内连接</li><li>外连接</li><li>自连接</li><li>子查询</li><li>多表查询案例</li></ul><h3 id="多表关系">多表关系</h3><p><code>概述：</code>项目开发中，在进行数据库表结构设计时，会根据业务需求及业务模块之间的关系，分析并设计表结构，由于业务之间相互关联，所以各个表结构之间也存在着各种 联系，基本上分以下三种</p><ul><li>一对多（多对一）</li><li>多对多</li><li>一对一</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> Mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>论文注意事项</title>
       <link href="/posts/1.html"/>
       <url>/posts/1.html</url>
